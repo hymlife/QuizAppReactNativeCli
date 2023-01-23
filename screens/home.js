@@ -5,7 +5,7 @@ import Title from '../component/title';
 const Home = ({navigation}) => {
   return (
     <View style={styles.container}>
-      <Title />
+      <Title titleText="Home" />
       <View style={styles.bannerContainer}>
         <Image
           source={{
